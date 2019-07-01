@@ -1,0 +1,35 @@
+/*******
+*** Custom style.css for widget frontend
+*******/
+
+.widefats{
+    width: 70%;
+}
+.moderate_posts li{
+    list-style-type: none;
+}
+.md_image {
+    float: left;
+}
+.md_image img{
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.md_content {
+    float: left;
+}
+.md_content p{
+    margin: 0;
+}
+.md_content span{
+    font-size: 14px;
+}
+
+/***CSS for backend***/
+
+.remove-field {
+    margin-left: 10px !important;
+}
+
