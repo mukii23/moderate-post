@@ -31,7 +31,7 @@ if ( ! class_exists( 'Moderate_Posts' ) ) :
                 
         public function init_actions(){
             
-             wp_enqueue_script( 'jquery_js', plugin_dir_url(__FILE__) . 'js/jQuery3.4.1.js' );
+             wp_enqueue_script( 'jquery_js', plugin_dir_url(__FILE__) . 'assets/js/jQuery3.4.1.js' );
              wp_enqueue_script( 'backend_js', plugin_dir_url(__FILE__) . 'assets/js/backend.js' );
              wp_enqueue_style( 'backend_css', plugin_dir_url(__FILE__) . 'assets/css/style.css' );
              
